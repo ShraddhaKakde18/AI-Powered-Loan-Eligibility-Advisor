@@ -19,7 +19,7 @@ This project contains a comprehensive banking system comprising a **Secure Ident
 ### 1. Database Setup
 1.  Ensure PostgreSQL is running.
 2.  Create a database named `loan_app_db` (or update `.env` with your preferred name).
-3.  The application is pre-configured to connect to `postgresql+asyncpg://postgres:Padma%40123@localhost/loan_app_db` via the included `.env` file.
+3.  The application is pre-configured to connect to `postgresql+asyncpg://postgres:dbpassword@localhost/loan_app_db` via the included `.env` file.
     > **Note**: If your PostgreSQL credentials differ, update the `.env` file in the root directory.
 
 ### 2. Backend Setup
